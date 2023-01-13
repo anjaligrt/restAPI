@@ -6,4 +6,4 @@ kind: ConfigMap
 metadata:
   creationTimestamp: null
   name: restapi-cm
-  namespace: restapi
+#  namespace: restapi
