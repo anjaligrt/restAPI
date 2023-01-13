@@ -5,7 +5,7 @@ metadata:
   labels:
     app: restapi
   name: restapi
-  namespace: restapi
+#  namespace: restapi
 spec:
   replicas: 1
   selector:
