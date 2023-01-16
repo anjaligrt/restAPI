@@ -7,7 +7,7 @@ spec:
   selector:
     matchLabels:
       app: mysql
-  replicas: {{ .Values.replicas }}
+#  replicas: {{ .Values.replicas }}
   strategy:
     type: Recreate
   template:
