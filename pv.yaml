@@ -3,7 +3,7 @@ kind: PersistentVolume
 metadata: 
   name: my-vol
 spec:
-  accessMode:
+  accessModes:
     - ReadWriteOnce
   awsElasticBlockStore:
     fsType: gp2
