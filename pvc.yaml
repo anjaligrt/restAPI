@@ -2,9 +2,11 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: mysql-pv-claim
-  namespace: default 
+ # namespace: default 
 spec:
- # storageClassName: default
+  storageClassName: ""
+  volumeMode: Filesystem
+  volumeName: my-vol
   accessModes:
     - ReadWriteOnce
   resources:
