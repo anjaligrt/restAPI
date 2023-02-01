@@ -10,5 +10,5 @@ spec:
     volumeID: vol-0a6802ef3e2d6211c
   capacity:
     storage: 22Gi
-  persistentVolumeReclaimPolicy: Retain
+  persistentVolumeReclaimPolicy: Recycle
   volumeMode: Filesystem
